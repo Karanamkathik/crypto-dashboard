@@ -1,0 +1,9 @@
+.coin-info-desc,
+.coin-info-heading{
+    cursor: pointer;
+    padding: 1rem;
+}
+.coin-info-desc a{
+color: var(--blue) !important;
+text-decoration: underline !important;
+}
