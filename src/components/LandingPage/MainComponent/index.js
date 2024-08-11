@@ -3,7 +3,7 @@ import "./style.css";
 import Button from '../../Common/Button';
 import iphone from "../../../assets/iphone.png";
 import gradient from "../../../assets/gradient.png";
-
+import { RWebShare } from "react-web-share";
 
 
 function MainComponent() {
@@ -17,8 +17,20 @@ function MainComponent() {
             do so!
             </p>
             <div className='btn-flex'>
+              <a href='/dashboard'>
                 <Button text={"Dashboard"}/>
-                <Button text={"share"} outlined={true}/>
+                </a>
+                <RWebShare
+        data={{
+          text: "Crypto Dashboard made using React JS.",
+          url: "https://on.natgeo.com/2zHaNup",
+          title: "CryptoDashboard.",
+        }}
+        onClick={() => console.log("shared successfully!")}
+      >
+       <Button text={"share"} outlined={true}/>
+       </RWebShare>
+                
             </div>
          </div>
          <div className='gradient-div'>
