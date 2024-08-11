@@ -10,7 +10,7 @@
 
 }
 .logo{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .links{
     display: flex;
@@ -20,7 +20,7 @@
 }
 
 .link{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: var(--grey);
     font-weight: 600;
     cursor: pointer;
@@ -45,9 +45,14 @@
         display: block;
       }
       .drawer-div {
-        width: 40vw;
+        width: 20vw;
         background-color: var(--black);
         height: 100vh;
         padding: 0.5rem 1.5rem;
+      }
+      .link{
+        font-size: 1rem;
+        /* color: var(--white); */
+        padding-bottom: 0.8rem;
       }
 }

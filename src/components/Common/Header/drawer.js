@@ -5,7 +5,7 @@ import Drawer from '@mui/material/Drawer';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
-
+import "./style.css";
 
 export default function TemporaryDrawer() {
     const [Open, setOpen] = useState(false);
