@@ -64,9 +64,9 @@ img {
 }
 
 .coins-days-flex{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 2rem !important;
 
 }
